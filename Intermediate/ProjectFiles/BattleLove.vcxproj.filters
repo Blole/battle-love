@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\BattleLove.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{5B09D63A-FBDC-4682-A979-81222962A69F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BattleLove.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BattleLoveEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{519B1F48-E657-4D22-89AA-D1350DE0CBCD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\BattleLove">
+			<UniqueIdentifier>{7102693E-689F-4D42-BD9E-DDE221512471}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BattleLove\BattleLove.Build.cs">
+			<Filter>Source\BattleLove</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\BattleLove\BattleLove.cpp">
+			<Filter>Source\BattleLove</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BattleLove\BattleLove.h">
+			<Filter>Source\BattleLove</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BattleLove\BattleLoveGameMode.cpp">
+			<Filter>Source\BattleLove</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BattleLove\BattleLoveGameMode.h">
+			<Filter>Source\BattleLove</Filter>
+		</ClInclude >
+		<Filter Include="Source\BattleLove\Resources">
+			<UniqueIdentifier>{15E601D2-7447-4FF0-A8C1-4EC739A3A89E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\BattleLove\Resources\Windows">
+			<UniqueIdentifier>{013B7A5D-F159-41C6-B2CE-6836634D5D6F}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\BattleLove\Resources\Windows\BattleLove.rc">
+			<Filter>Source\BattleLove\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

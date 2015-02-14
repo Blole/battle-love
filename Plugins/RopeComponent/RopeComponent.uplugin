@@ -1,0 +1,21 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "RopeComponent Plugin",
+	"Version" : 2,
+	"VersionName" : "1.1",
+	"CreatedBy" : "Epic Games, Inc.",
+	"CreatedByURL" : "http://epicgames.com",
+	"EngineVersion" : "4.6.1",
+	"Description" : "A simulated Rope component.",
+	"Category" : "Rendering.Components",
+	"EnabledByDefault" : true,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "RopeComponent",
+			"Type" : "Runtime"
+		}
+	]
+}
